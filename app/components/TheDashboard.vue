@@ -8,7 +8,7 @@
         <div class="prof-av">R</div>
         <div class="prof-info">
           <div class="prof-sched">Scheduled on 5 Apr at 19:05</div>
-          <div class="prof-name">Ramsey Garden 🎧</div>
+          <div class="prof-name">Ramsey 🎧</div>
           <div class="prof-stats">
             <span>♡ —</span>
             <span>↺ —</span>
