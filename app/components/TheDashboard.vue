@@ -325,6 +325,7 @@ const todos = [
 .panel-title {
   font-size: 11px; font-weight: 700; color: #fff;
   font-family: var(--font-display, 'Syne', sans-serif); margin-bottom: 0;
+  padding: 2px;
 }
 .todo-hd   { display: flex; align-items: center; gap: 5px; margin-bottom: 10px; }
 .todo-date { font-size: 8px; color: rgba(255,255,255,0.28); flex: 1; }
@@ -502,7 +503,7 @@ backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
 }
-.integ-list  { display: flex; flex-direction: column; gap: 7px; }
+.integ-list  { display: flex; flex-direction: column; gap: 7px; padding: 10px; }
 .integ-row   { display: flex; align-items: center; gap: 7px; }
 .i-ico {
   width: 22px; height: 22px; border-radius: 6px;
