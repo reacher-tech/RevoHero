@@ -1,0 +1,37 @@
+/* assets/css/main.css  — imported via nuxt.config.ts */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-deep:        #080617;
+  --bg-mid:         #110f24;
+  --bg-card:        rgba(255,255,255,0.035);
+  --bg-card-border: rgba(255,255,255,0.08);
+  --purple-accent:  #8b5cf6;
+  --purple-soft:    #6d28d9;
+  --text-sec:       rgba(255,255,255,0.5);
+  --text-muted:     rgba(255,255,255,0.28);
+  --green:          #22c55e;
+  --red:            #ef4444;
+  --font-display:   'Syne', sans-serif;
+  --font-body:      'DM Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-deep);
+  color: #fff;
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+button { cursor: pointer; font-family: inherit; }
+a { text-decoration: none; color: inherit; }
